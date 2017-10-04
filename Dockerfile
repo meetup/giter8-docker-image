@@ -5,7 +5,7 @@ LABEL Description="A simple containerization of giter8. https://github.com/mored
 RUN apk --update add curl ca-certificates openssl bash
 ENV CONSCRIPT_HOME /root/
 # install conscript
-RUN curl -s https://raw.githubusercontent.com/n8han/conscript/master/setup.sh | sh
+RUN curl -s curl https://raw.githubusercontent.com/foundweekends/conscript/master/setup.sh | sh
 
 # install giter8 using conscript
 RUN ~/bin/cs n8han/giter8
