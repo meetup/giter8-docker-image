@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8u151-jre-alpine
 MAINTAINER meetup.com
 LABEL Description="A simple containerization of giter8. https://github.com/moredip/giter8"
 
