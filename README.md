@@ -1,6 +1,6 @@
 # giter8 docker image
 
-[Giter8](https://github.com/n8han/giter8) command line tool wrapped to Docker image.
+[Giter8](https://github.com/n8han/giter8) command-line tool wrapped to Docker image.
 
 To use it:
 ```
