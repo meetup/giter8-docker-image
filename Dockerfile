@@ -1,4 +1,4 @@
-FROM openjdk:8u161-jre-alpine
+FROM openjdk:8u151-jre-alpine
 LABEL org.label-schema.schema-version = "1.0"
 LABEL org.label-schema.description = "A simple containerization of giter8. https://github.com/moredip/giter8"
 LABEL org.label-schema.vcs-url = "https://github.com/avast/giter8-docker-image"
