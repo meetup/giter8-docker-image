@@ -1,17 +1,17 @@
 # giter8 docker image
 
-A simple containerization of [giter8](https://github.com/n8han/giter8). 
+[Giter8](https://github.com/n8han/giter8) command line tool wrapped to Docker image.
 
 To use it:
 ```
-docker run -v $PWD:/g8out meetup/g8 unfiltered/unfiltered.g8 --name=my-new-website
+docker run --rm -v $PWD:/g8out avastsoftware/g8 unfiltered/unfiltered.g8 --name=my-new-website
 ```
 
 This will take generate a new `my-new-website` project based on the [`unfiltered/unfiltered.g8`](https://github.com/unfiltered/unfiltered.g8) template and place it in `my-new-website` under the current directory.
 
 Or you can set the project properties interactivelly:
 ```
-> docker run -v $PWD:/g8out -it meetup/g8 unfiltered/unfiltered.g8
+> docker run --rm -v $PWD:/g8out -it avastsoftware/g8 unfiltered/unfiltered.g8
 
 This template generates an Unfiltered project
 
